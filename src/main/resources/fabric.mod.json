@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nahida-chest",
+	"version": "${version}",
+	"name": "nahida-chest",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Jelly"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/nahida-chest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.jellyqwq.Nahidachest"
+		],
+		"client": [
+			"top.jellyqwq.NahidaChestClient"
+		],
+		"fabric-datagen": [
+			"top.jellyqwq.NahidachestDataGenerator"
+		]
+	},
+	"mixins": [
+		"nahida-chest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
