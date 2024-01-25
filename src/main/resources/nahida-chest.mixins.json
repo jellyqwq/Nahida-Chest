@@ -3,7 +3,8 @@
 	"package": "top.jellyqwq.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"BedRockMixin",
+		"BedRockLootTableMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

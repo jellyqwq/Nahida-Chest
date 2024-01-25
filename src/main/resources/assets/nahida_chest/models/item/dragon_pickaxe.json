@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nahida_chest:item/dragon_pickaxe"
+  }
+}

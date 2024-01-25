@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:dragon_egg"
+    },
+    "R": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "nahida_chest:dragon_pickaxe",
+    "count": 1
+  }
+}

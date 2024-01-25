@@ -12,14 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/nahida-chest/icon.png",
+	"icon": "assets/nahida_chest/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"top.jellyqwq.Nahidachest"
+			"top.jellyqwq.NahidaChest"
 		],
 		"client": [
 			"top.jellyqwq.NahidaChestClient"
+		],
+		"server": [
+			"top.jellyqwq.NahidaChestServer"
 		],
 		"fabric-datagen": [
 			"top.jellyqwq.NahidachestDataGenerator"
@@ -29,7 +32,7 @@
 		"nahida-chest.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
+		"fabricloader": ">=0.15.3",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
